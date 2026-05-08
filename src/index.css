@@ -14,3 +14,6 @@ html{
     scrollbar-width: none;
   }
 }
+* {
+  box-sizing: border-box;
+}

@@ -61,7 +61,7 @@ function Projects() {
           {handleSlider().map((project, index) => (
             <div
               key={index}
-              className=" h-72 flex-1 p-2 rounded-2xl  shadow-2xl flex flex-col items-center justify-between min-w-20"
+              className=" h-72 flex-1 p-1 md:p-2 rounded-2xl  shadow-2xl flex flex-col items-center justify-between w-16"
             >
               <h1 className="md:text-4xl text-2xl text-center">
                 {project.name}

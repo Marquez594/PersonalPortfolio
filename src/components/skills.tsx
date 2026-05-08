@@ -40,7 +40,7 @@ function Skills() {
       <div className=" flex justify-center w-full ">
         {/**This is the scrollable */}
         <div
-          className="w-4/5   h-96 overflow-y-scroll snap-y snap-mandatory no-scrollbar rounded-3xl"
+          className="w-4/5  h-96 overflow-y-scroll snap-y snap-mandatory no-scrollbar rounded-3xl"
           id="scroll-container"
         >
           {/**Languages */}
@@ -59,7 +59,9 @@ function Skills() {
                     src={language.img}
                     className="w-full h-full object-contain"
                   ></img>
-                  <h1 className="text-center text-[0.7rem]">{language.skill}</h1>
+                  <h1 className="text-center text-[0.7rem]">
+                    {language.skill}
+                  </h1>
                 </div>
               ))}
             </div>

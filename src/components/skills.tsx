@@ -49,11 +49,11 @@ function Skills() {
               Languages
             </h1>
             {/** */}
-            <div className="w-full grid md:gap-8 md:grid-cols-4 p-5 justify-items-center md:gap-y-20 grid-cols-2 gap-y-2">
+            <div className="w-full grid md:gap-8 md:grid-cols-4 p-5 justify-items-center md:gap-y-20 grid-cols-2 gap-y-8">
               {languages.map((language, index) => (
                 <div
                   key={index}
-                  className="md:w-24 md:h-30 flex flex-col items-center gap-1 md:gap-2 h-16 w-20"
+                  className="md:w-24 md:h-30 flex flex-col items-center gap-1 md:gap-2 h-14 w-20"
                 >
                   <img
                     src={language.img}
@@ -87,7 +87,7 @@ function Skills() {
             <h1 className="[writing-mode:vertical-rl]  rotate-180 text-3xl underline decoration-2 md:underline-offset-8 underline-offset-2">
               Other
             </h1>
-            <div className="w-full grid gap-8 grid-cols-4 p-5 justify-items-center gap-y-20">
+            <div className="w-full grid  grid-cols-4 p-5 justify-items-center gap-y-20">
               {other.map((stuff, index) => (
                 <div
                   key={index}

@@ -52,7 +52,7 @@ function Projects() {
         </p>
       </div>
       <div className=" md:w-4/5  flex [&>button]:cursor-pointer gap-4 w-9/10 items-stretch">
-        <button onClick={() => handleLeftSlider()}>
+        <button onClick={() => handleLeftSlider()} className="min-w-5">
           <h1 className="[writing-mode:vertical-rl]  rotate-180  decoration-2 text-2xl hover:scale-125 transition-all duration-200 active:scale-95">
             Prev
           </h1>
@@ -87,7 +87,7 @@ function Projects() {
             </div>
           ))}
         </div>
-        <button onClick={() => handleRightSlider()}>
+        <button onClick={() => handleRightSlider()} className="min-w-5">
           <h1 className="[writing-mode:vertical-rl]  rotate-360  decoration-2 text-2xl hover:scale-125 transition-all duration-200 active:scale-95">
             Next
           </h1>

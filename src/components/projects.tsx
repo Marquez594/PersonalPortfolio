@@ -51,7 +51,7 @@ function Projects() {
           eum earum, hic nobis ex? Ullam natus porro iure pariatur!
         </p>
       </div>
-      <div className=" md:w-4/5  flex [&>button]:cursor-pointer gap-4 w-9/10 ">
+      <div className=" md:w-4/5  flex [&>button]:cursor-pointer gap-4 w-9/10 items-stretch">
         <button onClick={() => handleLeftSlider()}>
           <h1 className="[writing-mode:vertical-rl]  rotate-180  decoration-2 text-2xl hover:scale-125 transition-all duration-200 active:scale-95">
             Prev
@@ -61,7 +61,7 @@ function Projects() {
           {handleSlider().map((project, index) => (
             <div
               key={index}
-              className=" h-72 flex-1 p-1 md:p-2 rounded-2xl  shadow-2xl flex flex-col items-center justify-between w-16"
+              className="min-w-0 h-72 flex-1 p-1 md:p-2 rounded-2xl  shadow-2xl flex flex-col items-center justify-between w-16"
             >
               <h1 className="md:text-4xl text-2xl text-center">
                 {project.name}

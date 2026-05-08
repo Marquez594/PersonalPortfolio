@@ -53,13 +53,13 @@ function Skills() {
               {languages.map((language, index) => (
                 <div
                   key={index}
-                  className="md:w-24 md:h-30 flex flex-col items-center gap-1 md:gap-2 h-20 w-20"
+                  className="md:w-24 md:h-30 flex flex-col items-center gap-1 md:gap-2 h-16 w-20"
                 >
                   <img
                     src={language.img}
                     className="w-full h-full object-contain"
                   ></img>
-                  <h1 className="text-center text-[0.75rem]">{language.skill}</h1>
+                  <h1 className="text-center text-[0.7rem]">{language.skill}</h1>
                 </div>
               ))}
             </div>

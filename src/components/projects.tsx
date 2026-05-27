@@ -46,9 +46,9 @@ function Projects() {
       <div className="flex flex-col items-center w-1/2 gap-4">
         <h1 className="text-6xl">Projects</h1>
         <p className="text-center">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi facere
-          ea harum temporibus odio numquam fugiat similique corrupti quod error
-          eum earum, hic nobis ex? Ullam natus porro iure pariatur!
+          Explore some of the projects I've built using modern web technologies.
+          These projects showcase my skills in front-end development, responsive
+          design, and creating smooth user experiences.
         </p>
       </div>
       <div className=" md:w-4/5  flex [&>button]:cursor-pointer gap-4 w-9/10 items-stretch">

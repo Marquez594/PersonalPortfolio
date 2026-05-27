@@ -30,10 +30,10 @@ function Skills() {
       <div className="flex flex-col justify-center items-center gap-2">
         <h1 className="text-4xl">My Skills</h1>
         <p className="text-center w-1/2">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel tenetur
-          modi ipsam? Voluptate, vero! Aliquam facilis fugiat animi dolorum
-          cumque distinctio perferendis quasi illum quos tenetur magnam ratione,
-          libero molestiae.
+          As a Front-End Developer, I enjoy building responsive and interactive
+          web applications using React, TypeScript, JavaScript, and Tailwind
+          CSS. I focus on creating clean designs and smooth user experiences
+          while continuously improving my skills.
         </p>
       </div>
       {/**This is where all the skills will go*/}

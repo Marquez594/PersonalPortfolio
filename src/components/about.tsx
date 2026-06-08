@@ -1,3 +1,4 @@
+import Self from "../assets/self.jpg"
 function About() {
   return (
     <div
@@ -23,7 +24,9 @@ function About() {
       </div>
       {/**This is where the image goes */}
       <div className=" flex-1 flex flex-col justify-center items-center">
-        <div className="md:h-9/10 md:w-9/10 lg:h-9/10 lg:w-3/4 rounded-full bg-black h-64 w-3/4 border"></div>
+        <div className="md:h-9/10 md:w-9/10 lg:h-9/10 lg:w-3/4 rounded-full bg-black h-64 w-3/4 border overflow-hidden">
+          <img src={Self} className="w-full h-full object-cover md:object-[42%_30%] object-[40%_30%]"></img>
+        </div>
       </div>
     </div>
   );

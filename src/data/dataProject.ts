@@ -37,4 +37,11 @@ export const projectList: projectType[] = [
     github: "https://github.com/Marquez594/Bulletin-Board",
     page: "https://bulletin-delta-seven.vercel.app/",
   },
+  {
+    name: "Admin Dashboard",
+    description:
+      "Website that works with the Bulletin-Board that is able to monitor post and users. Within the admin center you can edit and delete posts and users. The site was created entirely with Next.js",
+    github: "https://github.com/Marquez594/BulletinAdmin",
+    page: "https://bulletin-admin.vercel.app/",
+  },
 ];

@@ -66,7 +66,7 @@ function Projects() {
               <h1 className="md:text-4xl text-2xl text-center">
                 {project.name}
               </h1>
-              <p className="mt-4 text-center">{project.description}</p>
+              <p className="mt-4 text-center overflow-y-auto">{project.description}</p>
               {/**Links */}
               <div className="flex flex-col self-start mt-auto">
                 <a

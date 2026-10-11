@@ -30,9 +30,9 @@ export const projectList: projectType[] = [
   {
     name: "Weather App",
     description:
-      "Using API's, I would have a weather show for a location. The browser asks for permission for the user's location to check the weather. Users could also check other locations if they wished ",
-    github: "https://github.com/Marquez594/WeatherApp",
-    page: "https://marquez594.github.io/WeatherApp/",
+      "Using API's, the pages shows the current weather of the location it's currently set at. Users can also change the location of page to see the weather in other parts of the world. ",
+    github: "https://github.com/Marquez594/BetterWeather",
+    page: "https://marquez594.github.io/BetterWeather/",
   },
   {
     name: "Bulletin-Board",
@@ -47,5 +47,19 @@ export const projectList: projectType[] = [
       "Website that works with the Bulletin-Board that is able to monitor post and users. Within the admin center you can edit and delete posts and users. The site was created entirely with Next.js",
     github: "https://github.com/Marquez594/BulletinAdmin",
     page: "https://bulletin-admin.vercel.app/",
+  },
+  {
+    name: "React Mini Projects",
+    description:
+      "Collection of some mini react projects that I saw online. Many of these projects helped me gain a better understanding of react.",
+    github: "https://github.com/Marquez594/ReactProjects",
+    page: "https://react-projects-three-livid.vercel.app/",
+  },
+  {
+    name: "Bear Chat",
+    description:
+      "*Calls have a chance to not work* Application where users can taxt to each other by video and/or audio calls. Users can also message one another. Works like any modern social media app.",
+    github: "https://github.com/Marquez594/BearChat",
+    page: "https://bear-chat-rust.vercel.app/",
   },
 ];
